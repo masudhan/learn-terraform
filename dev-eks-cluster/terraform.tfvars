@@ -1,0 +1,17 @@
+region = "us-east-1"
+vpc_name = "dev-vpc"
+vpc_cidr = "10.0.0.0/16"
+private_subnet_cidr = [ "10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24" ]
+public_subnet_cidr = [ "10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24" ]
+cluster_version = "1.22"
+node_group_1_name =  "dev-node-group-1"
+instance_types = ["t3.small"]
+ami_type = "AL2_x86_64"
+attach_cluster_primary_security_group = true
+create_default_security_group = false
+worker_node_1_desired_instances = 1
+worker_node_1_maximum_instances = 1
+worker_node_1_minimum_instances = 1
+enable_nat_gateway   = true
+single_nat_gateway   = true
+enable_dns_hostnames = true
