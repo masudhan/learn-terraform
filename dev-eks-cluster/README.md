@@ -1,4 +1,4 @@
-**Launch an EKS Cluster in SSG Dev Environmet**
+**Launch an EKS Cluster in Dev Environmet**
 
 This is going to launch 49 resources
 
